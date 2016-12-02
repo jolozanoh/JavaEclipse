@@ -45,6 +45,7 @@ public class AppPrueba {
 		Jefe jefe1 = new Jefe();
 		
 		System.out.println(jefe1.mando());
+		System.out.println(jefe1.mando());
 
 	}
 

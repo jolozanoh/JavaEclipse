@@ -1,0 +1,51 @@
+<html>
+<body>
+<form action="RecogeDatos.jsp" method="post">
+	nombre: <input type="text" name="nombre">
+	<br>
+	apallido: <input type="text" name="apellido">
+	<br>
+	usuario: <input type="text" name="usuario">
+	<br>
+	contrasena: <input type="text" name="contrasena">
+	<br>
+	<br>
+	<br>
+	<table>
+  		<tr>
+    		<td>pais</td>
+    		<td>
+    			<select name="pais">
+   		 			<option value="espana">Espana</option>
+   	 				<option value="mexico">Mexico</option>
+    				<option value="reinounido">Reino Unido</option>
+  				</select>
+  			</td> 
+   		</tr>
+ 	</table>
+  
+
+	<br>
+	<br>
+	<br>
+	
+	<table >
+  		<tr>
+    		<td>tecnologia</td>
+    		<td>
+    			<input type="radio" name="tecnologia" value="java" id="tecnologias_0" checked> Java<br>
+  			    <input type="radio" name="tecnologia" value="Php" id="tecnologias_1">Php<br>
+  			    <input type="radio" name="tecnologia" value="JScript" id="tecnologias_2"> JScript
+  			</td> 
+   		</tr>
+ 	</table>
+ 	<br>
+ 	<br>
+ 	<br>
+ 	<input type="submit" value="Registrar">
+ 	
+</form>
+
+</body>
+
+</html>
